@@ -1,0 +1,121 @@
+
+#boxguild {
+	height: 900px;
+	border: 7px solid teal;
+	border-radius: 20px !important;
+    background: teal 
+}
+
+#boxjob{
+	height: 900px;
+	border: 7px solid teal;
+	border-radius: 20px !important
+}
+
+#boxprofile{
+	height: 393px;
+	border: 7px solid teal;
+	border-radius: 20px !important;
+	background:teal
+}
+#boxrank{
+	height: 900px;
+	border: 7px solid teal;
+	border-radius: 20px !important;
+	background: teal
+}
+
+#boxfriend{
+	height: 400px;
+	border: 3px solid black;
+	border-radius: 20px !important
+}
+
+#rownama{
+	border: 2px solid teal;
+	border-radius: 20px !important
+}
+
+#gambaronline{
+	margin-top: 3px;
+	/*margin-left: auto;*/
+	margin-right: auto;
+	display: block;
+	clear: both
+}
+
+#nama{
+	margin-top: 1px;
+	font-size: 21px;
+}
+
+.nama{
+	display: inline-block;
+  	vertical-align: middle;
+  	line-height: normal
+}
+
+#cardjob{
+	border: 5px solid teal;
+	border-radius: 10px !important
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+ }
+
+main {
+flex: 1 0 auto;
+}
+
+.fontcen{
+	font-family: New Century Schoolbook !important
+}
+
+/*font*/
+p {
+	font-size: 21px 
+}
+
+#namaguild{
+	font-size: 40px;
+	font-weight: bold;
+	color: white
+}
+
+#motto{
+	font-size: 25px;
+	color: white
+	
+}
+
+#alamat{
+	color:darkgrey;
+}
+
+#judul{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#juduljob{
+	font-size: 30px;
+	font-weight: bold
+}
+
+#fontcopyright{
+	margin-top: 0px;
+	margin-bottom: 8px;
+	font-size:25px;
+}
+

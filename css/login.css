@@ -1,0 +1,50 @@
+#cardlogin{
+	margin-right: 35% ;
+	margin-left: 35%;
+	border: 5px solid teal;
+	border-radius: 20px;
+	margin-top: 20%;
+}
+
+#cardregist{
+	margin-right: 25% ;
+	margin-left: 25%;
+	border: 5px solid teal;
+	border-radius: 20px;
+	margin-top: 5%;
+}
+
+#popup{
+	margin-right: 25% ;
+	margin-left: 25%;
+	border: 5px solid teal;
+	border-radius: 20px;
+	margin-top: 5%;
+}
+
+#cardssobesar{
+	margin-right: 35% ;
+	margin-left: 35%;
+	border: 5px solid teal;
+	border-radius: 20px;
+	margin-top: 15%;
+}
+
+#cardsso{
+	height: 80px;
+	border-radius: 20px
+}
+
+
+/*font*/
+#judul{
+	font-size: 25px;
+	font-weight: bold;
+	color: teal;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5)
+}
+
+.fontcen{
+	font-family: New Century Schoolbook !important
+}
+

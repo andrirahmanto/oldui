@@ -1,0 +1,115 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Registration - The Green Chamaleon </title>
+	<link rel="stylesheet" href="css/login.css">
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<div id="popup" class="modal center-align">
+            <div class="modal-content">
+            <h4>Your Account</h4>
+            <p>Username: <b>Darkstar</b></p>
+            <p>Password: <b>asdkjf43</b></p>
+            </div>
+            <div style="margin: auto; margin-bottom: 15px;">
+            <a href="LoginPage.html" class="modal-close waves-effect waves-green btn">Login</a>
+            </div>
+        </div>
+		<div class="card" id="cardregist">
+			<div class="card-content center-align">
+				<div class="cardtitle fontcen" id="judul">Registration Form</div>
+				<br>
+				<div class="input-field">
+                    <input value="Andri Rahmanto" id="full_name" type="text" class="validate">
+                    <label for="full_name">Full Name</label>
+                </div>
+	            <div class="input-field">
+                    <input value="5000600030003000" id="nik" type="number" class="validate">
+                    <label for="nik">NIK</label>
+                </div>
+                <div class="input-field">
+                    <input value="Student" id="profession" type="text" class="validate">
+                    <label for="profession">Profession</label>
+                </div>
+                <div class="input-field">
+                    <textarea id="skillset" class="materialize-textarea">Web Programming</textarea>
+                    <label for="skillset">Skillset</label>
+                </div>
+                <div class="input-field">
+                    <input value="Senen 10450" id="address" type="text" class="validate">
+                    <label for="address">Address</label>
+                </div>
+                <div class="input-field">
+                    <input id="birthdate" value="07-05-2000" type="text" class="datepicker">
+                    <label for="birthdate">Birthdate</label>
+                </div>
+                <div class="input-field">
+                    <input value="Darkstar7" id="codename" type="text" class="validate">
+                    <label for="codename">Code Name</label>
+                </div>
+                <div class="row">
+                	<div class="col s6 m6 l6">
+                		<p class="left-align">
+		                    <span style="color: black;">Member Type: </span>
+		                    <br>
+			                <label>
+			                    <input name="group1" type="radio" value="civilian" checked />
+		                    	<span>Civilian</span>
+		                    </label>
+		                    <br>
+		                    <label>
+		                        <input name="group1" type="radio" value="member" />
+		                        <span>Guild Member</span>
+		                    </label>
+		                </p>
+                	</div>
+                	<div class="col s6 m6 l6">
+                		<p class="left-align">
+                            <span style="color: black;">Join Period: </span>
+                            <br>
+                            <label>
+                            <input name="group2" type="radio" value="1month" checked />
+                            <span>1-month</span>
+                            </label>
+                            <br>
+                            <label>
+                                <input name="group2" value="3months" type="radio" />
+                                <span>3-months</span>
+                            </label>
+                            <br>
+                            <label>
+                                <input name="group2" value="halfyear" type="radio" />
+                                <span>Half year</span>
+                            </label>
+                            <br>
+                            <label>
+                                <input name="group2" value="year" type="radio" />
+                                <span>Year</span>
+                            </label>
+                        </p>
+                	</div>
+                </div>
+                <br>
+
+	            <button data-target="popup" class="waves-effect waves-light btn modal-trigger teal fontcen">Register</button>
+	        
+			</div>
+		</div>
+	</div>
+	<!--JavaScript at end of body for optimized loading-->
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+		var elems = document.querySelectorAll('.datepicker');
+		var instances = M.Datepicker.init(elems, {});
+
+		var elems2 = document.querySelectorAll('.modal');
+		var instances2 = M.Modal.init(elems2, {});
+		});
+	</script>
+</body>
+</html>
